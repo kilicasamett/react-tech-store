@@ -9,7 +9,7 @@ export default function Featured() {
     <section className="py-5">
       <div className="container">
         {/* title */}
-        <Title title="featured products" center="true" />
+        <Title title="özel ürünler" center="true" />
         {/* products */}
         <div className="row my-5">
           <ProductConsumer>
@@ -25,7 +25,7 @@ export default function Featured() {
         <div className="row mt-5">
           <div className="col text-center">
             <Link to="/products" className="main-link">
-              our products
+              ürünlerİmİz
             </Link>
           </div>
         </div>

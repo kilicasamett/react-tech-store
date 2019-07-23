@@ -22,7 +22,7 @@ export default function SideCart() {
                     <div className="mt-3">
                       <h6 className="text-uppercase">{item.title}</h6>
                       <h6 className="text-title text-capitalize">
-                        amount : {item.count}
+                        adet: {item.count}
                       </h6>
                     </div>
                   </li>
@@ -30,11 +30,11 @@ export default function SideCart() {
               })}
             </ul>
             <h4 className="text-capitalize text-main">
-              cart total : ${cartTotal}
+              toplam fiyat : ${cartTotal}
             </h4>
             <div className="text-center my-5">
               <Link to="/cart" className="main-link">
-                cart page
+                sepete gİt
               </Link>
             </div>
           </CartWrapper>

@@ -6,32 +6,32 @@ export default function CartColumns() {
       <div className="row">
         {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">products</p>
+          <p className="text-uppercase">ürünler</p>
         </div>
         {/* end of single column */}
         {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">name of product</p>
+          <p className="text-uppercase">ürün adı</p>
         </div>
         {/* end of single column */}
         {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">price</p>
+          <p className="text-uppercase">fiyatı</p>
         </div>
         {/* end of single column */}
         {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">quantity</p>
+          <p className="text-uppercase">mİktarı</p>
         </div>
         {/* end of single column */}
         {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">remove</p>
+          <p className="text-uppercase">sİl</p>
         </div>
         {/* end of single column */}
         {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">total</p>
+          <p className="text-uppercase">toplam</p>
         </div>
         {/* end of single column */}
       </div>

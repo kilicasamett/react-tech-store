@@ -7,21 +7,21 @@ export default class Services extends Component {
       {
         id: 1,
         icon: <FaDolly />,
-        title: "free shipping",
+        title: "ücretsiz kargo",
         text:
           " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusamus."
       },
       {
         id: 2,
         icon: <FaRedo />,
-        title: "30 days return policy",
+        title: "30 gün koşulsuz İade ",
         text:
           " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusamus."
       },
       {
         id: 3,
         icon: <FaDollarSign />,
-        title: "secured payment",
+        title: "güvenli ödeme",
         text:
           " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusamus."
       }

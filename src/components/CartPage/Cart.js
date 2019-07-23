@@ -8,7 +8,7 @@ export default function Cart({history}) {
     <section className="py-5">
       {/* title */}
       <div className="container">
-        <Title title="your cart items" center />
+        <Title title="Alışveriş sepetim" center />
       </div>
       {/* cart columns */}
       <CartColumns />

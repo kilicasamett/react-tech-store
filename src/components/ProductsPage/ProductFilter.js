@@ -27,7 +27,7 @@ export default function ProductFilter() {
                          <FilterWrapper>
                         {/*text search */}
                         <div>
-                        <label htmlFor="search">search products:</label>
+                        <label htmlFor="search">ürün ara:</label>
                         <input name="search" id="search" value={search} 
                         className="filter-item"
                         type="text" onChange={handleChange}/>
@@ -35,7 +35,7 @@ export default function ProductFilter() {
                         {/*end oftext search */}
                         {/*category search */}
                         <div>
-                         <label htmlFor="company">company : </label>
+                         <label htmlFor="company">firma : </label>
                          <select name="company" 
                                  id="company" 
                                  value={company} 
@@ -55,7 +55,7 @@ export default function ProductFilter() {
                         {/*price range */}
                         <div>
                         <label htmlFor="price">
-                        <p className="mb-2">product price :<span>${price}</span></p>     
+                        <p className="mb-2">ürün fiyatı :<span>${price}</span></p>     
                         </label> 
                         
                         <input type="range" name="price" id="price" className="filter-price" value={price} min={min} max={max} onChange={handleChange}/>
@@ -64,7 +64,7 @@ export default function ProductFilter() {
                         {/*end of price range */}
                         {/*free shipping */}
                         <div>
-                         <label htmlFor="shipping" className="mx-2">free shipping</label>
+                         <label htmlFor="shipping" className="mx-2">ücretsiz kargo</label>
                          <input type="checkbox" name="shipping" id="shipping" onChange={handleChange}
                          checked={shipping && true}/>   
                         </div>

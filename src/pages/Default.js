@@ -6,9 +6,9 @@ export default function Default() {
   return (
     <>
       <Hero img={defaultBcg} title="404" max="true">
-        <h2 className="text-uppercase">page not found</h2>
+        <h2 className="text-uppercase">üzgünüz bu sayfa bulunamadı</h2>
         <Link to="/" className="main-link" style={{ marginTop: "2rem" }}>
-          return home
+          ana sayfaya dön
         </Link>
       </Hero>
     </>

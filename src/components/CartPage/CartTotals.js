@@ -14,11 +14,11 @@ export default function CartTotals({history}) {
                   className="btn btn-outline-danger text-capitalize mb-4"
                   onClick={clearCart}
                 >
-                  clear cart
+                  sepeti temizle
                 </button>
-                <h3>subtotal : ${cartSubTotal}</h3>
-                <h3>tax : ${cartTax}</h3>
-                <h3>total : ${cartTotal}</h3>
+                <h3>toplam ürün fiyatı : ${cartSubTotal}</h3>
+                <h3>vergi : ${cartTax}</h3>
+                <h3>vergiler dahil  : ${cartTotal}</h3>
                 <PayPalBtn history={history} cartTotal={cartTotal} clearCart={clearCart}/>
               </div>
             );

@@ -15,7 +15,7 @@ export default function Info() {
             />
           </div>
           <div className="col-10 mx-auto col-md-6 my-3">
-            <Title title="about us" />
+            <Title title="hakkımızda" />
             <p className="text-lead text-muted my-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
               illo obcaecati non asperiores repellendus alias, nostrum aliquid
@@ -25,13 +25,14 @@ export default function Info() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
               illo obcaecati non asperiores repellendus alias, nostrum aliquid
               ad eaque ratione!
+              
             </p>
             <button
               className="main-link"
               type="button"
               style={{ marginTop: "2rem" }}
             >
-              more info
+              daha fazla
             </button>
           </div>
         </div>

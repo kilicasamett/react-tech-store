@@ -1,27 +1,27 @@
 export const linkData = [
   {
     id: 1,
-    text: "home",
+    text: "ana sayfa",
     path: "/"
   },
   {
     id: 2,
-    text: "about",
+    text: "hakkımızda",
     path: "/about"
   },
   {
     id: 3,
-    text: "products",
+    text: "ürünler",
     path: "/products"
   },
   {
     id: 4,
-    text: "contact",
+    text: "İletişim",
     path: "/contact"
   },
   {
     id: 5,
-    text: "cart",
+    text: "sepetim",
     path: "/cart"
   }
 ];

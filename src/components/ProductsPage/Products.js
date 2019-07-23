@@ -12,7 +12,7 @@ export default function Products() {
             <section className="py-5">
                 <div className="container">
                     {/*title */}
-                  <Title center title ="our products" />
+                  <Title center title ="ürünlerimiz" />
                    {/** product filter*/} 
                   <ProductFilter/> 
                  
@@ -20,7 +20,7 @@ export default function Products() {
                   <div className="row">
                     <div className="col-10 mx-auto">
                       <h6 className="text-title">
-                        total products: {filteredProducts.length}
+                        bulunan ürün sayısı: {filteredProducts.length}
                       </h6>
                     </div>
                   </div>

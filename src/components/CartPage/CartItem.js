@@ -21,13 +21,13 @@ export default function CartItem({
       {/*end of image */}
       {/* title */}
       <div className="col-10 mx-auto col-lg-2 pb-2">
-        <span className="d-lg-none">product : </span>
+        <span className="d-lg-none">ürün : </span>
         {title}
       </div>
       {/*end of title */}
       {/* price */}
       <div className="col-10 mx-auto col-lg-2 pb-2">
-        <span className="d-lg-none">price : $</span>
+        <span className="d-lg-none">fiyat : $</span>
         {price}
       </div>
       {/*end of price */}
@@ -58,7 +58,7 @@ export default function CartItem({
       {/*end of remove */}
       {/* item total */}
       <div className="col-10 mx-auto col-lg-2">
-        <strong className="text-muted">item total : ${total}</strong>
+        <strong className="text-muted">toplam fiyatı : ${total}</strong>
       </div>
       {/* end item total */}
     </div>
